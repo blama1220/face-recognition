@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Web App for Face Recognition</title>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <br><hr>
+      <h1>Recognize face</h1>
+      <hr>
+
+      <form action="/recognize-image" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+         
+          <label for="image">Select an image...</label>
+            <input type="file" class="form-control-file" name="image" id="image">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Recognize face</button>
+
+      </form>
+      <div>
+        <br>
+        <br>
+        <a href="/">Home!</a>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+</body>
+</html>
