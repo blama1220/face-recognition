@@ -15,5 +15,5 @@ pip install -r requirements.txt
 ## Usage
 
 ```python
-py Api.py
+py API.py
 ```
